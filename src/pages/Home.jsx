@@ -7,7 +7,6 @@ const Home = () => {
 
     useEffect(()=>{
         window.scrollTo({top: 0, left: 0});
-        document.title = 'Home | Sociogram'
     },[])
 
     return (
