@@ -27,7 +27,7 @@ const PostCard = ({post}) => {
                 <div className="tags flex gap-4 pl-8 text-sm py-2">
                     {
                         post.tags.map(tag => (
-                            <p className={'bg-blue-300 rounded px-2'}>{tag}</p>
+                            <p key={tag} className={'bg-blue-300 rounded px-2'}>{tag}</p>
                         ))
                     }
                 </div>
